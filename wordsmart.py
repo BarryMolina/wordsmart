@@ -10,7 +10,5 @@ with open('learnedwords.txt') as learnedfile:
 new_words = [word for word in words if word not in learnedwords]
 new_word = random.choice(new_words)
 
-#learnedfile.write(new_word)
-
 sys.stdout.write(new_word.capitalize())
 

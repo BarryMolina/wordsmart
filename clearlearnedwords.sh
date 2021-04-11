@@ -1,3 +1,3 @@
 #! /bin/bash
 
-rm ~/wordsmart/learnedwords.txt
+> ~/wordsmart/learnedwords.txt
